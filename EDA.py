@@ -90,8 +90,8 @@ class PreAnalysis:
 if __name__ == '__main__':
     # train = pd.read_csv("./data/train.csv")
     # print(train.head())
-    pa = PreAnalysis(train_path="./data/train.csv",
-                     dev_path="./data/dev.csv")
+    pa = PreAnalysis(train_path="data/datasets/train.csv",
+                     dev_path="data/datasets/dev.csv")
     # pa.plot_category(mode="dev")
     # pa.plot_seq_len()
     # pa.similarity(mode="test")
