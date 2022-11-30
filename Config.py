@@ -7,10 +7,10 @@ device = torch.device("mps")
 learning_rate = 1e-5
 epochs = 5
 
-output_file = 'data/experiments/aug_pgd/'
+output_file = 'data/experiments/fgm2/'
 
 # 对抗学习
-adversarial_method = "pgd"
+adversarial_method = "fgm"
 K = 3  # if pgd
 
 # 交叉验证
